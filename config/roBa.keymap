@@ -85,7 +85,7 @@
 &kp Q             &kp W             &kp E         &kp R                        &kp T                                                           &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S             &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &mt ESC INT_RO  &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X             &kp C         &kp V                        &kp B        &kp SEMICOLON                      &mkp MB1        &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &mt LEFT_WIN TAB  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE   &lt 1 ENTER                             &kp RETURN
+&kp LCTRL         &mt LEFT_WIN TAB  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE   &lt 1 ENTER                             &lt_to_layer_0 5 RETURN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -94,7 +94,7 @@
         FUNCTION {
             bindings = <
 &kp INT_KANA  &kp F2  &kp F3  &kp F4  &kp F5                                  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp F5
-&kp F6        &kp F7  &kp F8  &kp F9  &kp F10  &kp F11      &kp LC(INT_KANA)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp DOWN      &kp RIGHT        &kp BACKSPACE
+&kp F6        &kp F7  &kp F8  &kp F9  &kp F10  &kp F11      &kp LC(INT_KANA)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &kp BACKSPACE
 &kp F1        &trans  &trans  &trans  &trans   &kp F12      &trans            &trans          &trans          &trans        &trans           &kp F11
 &trans        &trans  &trans  &trans  &trans   &trans       &trans            &trans                                                         &kp F12
             >;

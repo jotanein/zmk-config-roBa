@@ -95,7 +95,7 @@
             bindings = <
 &kp LC(SPACE)  &kp F2  &kp F3  &kp F4  &kp F5                                  &msc SCRL_LEFT  &msc SCRL_DOWN    &msc SCRL_UP        &msc SCRL_RIGHT  &kp F5
 &kp F6         &kp F7  &kp F8  &kp F9  &kp F10  &kp F11      &kp LC(INT_KANA)  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW        &kp RIGHT        &kp BACKSPACE
-&kp F1         &trans  &trans  &trans  &trans   &kp F12      &kp C_MUTE        &trans          &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD  &trans           &kp F11
+&kp F1         &trans  &trans  &trans  &trans   &kp F12      &kp C_MUTE        &kp C_REWIND    &kp C_PLAY_PAUSE  &kp C_FAST_FORWARD  &trans           &kp F11
 &trans         &trans  &trans  &trans  &trans   &trans       &trans            &trans                                                                 &kp F12
             >;
         };

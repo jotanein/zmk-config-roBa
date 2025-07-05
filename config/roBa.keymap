@@ -12,18 +12,18 @@
     automouse-layer = <4>;
     scroll-layers = <5>;
 
-     arrows {
-         layers = <3>;
-         bindings =
-             <&kp RIGHT_ARROW>,
-             <&kp LEFT_ARROW>,
-             <&kp UP_ARROW>,
-             <&kp DOWN_ARROW>;
+    arrows {
+        layers = <3>;
+        bindings =
+            <&kp RIGHT_ARROW>,
+            <&kp LEFT_ARROW>,
+            <&kp UP_ARROW>,
+            <&kp DOWN_ARROW>;
 
-         tick = <10>;
-         wait-ms = <5>;
-         tap-ms = <5>;
-     };
+        tick = <10>;
+        wait-ms = <5>;
+        tap-ms = <5>;
+    };
 };
 
 / {
@@ -63,6 +63,13 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        email: email {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(K) &kp A &kp Z &kp U &kp K &kp I &kp DOT &kp LS(O) &kp N &kp O &kp N1 &kp AT &kp J &kp P &kp DOT &kp R &kp I &kp C &kp O &kp H &kp DOT &kp C &kp O &kp M>;
+            label = "EMAIL";
+        };
     };
 
     behaviors {
@@ -81,10 +88,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W             &kp E         &kp R  &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A      &kp S             &kp D         &kp F  &kp G        &kp LS(LG(S))        &kp ESCAPE      &kp H        &kp J  &lt 5 K    &kp L    &kp MINUS
-&kp Z      &kp X             &kp C         &kp V  &kp B        &kp TAB              &kp APOSTROPHE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LSHFT  &mt LEFT_WIN TAB  &kp LEFT_ALT  &mo 3  &lt 2 SPACE  &mt LCTRL SPACE      &kp BACKSPACE   &lt 1 ENTER                             &kp ENTER
+&kp Q      &kp W             &kp E         &kp R  &kp T                                             &kp Y        &kp U  &lt 5 I      &kp O    &kp P
+&kp A      &kp S             &kp D         &kp F  &kp G        &kp LS(LG(S))        &kp ESCAPE      &kp H        &kp J  &lt 5 K      &kp L    &kp MINUS
+&kp Z      &kp X             &kp C         &kp V  &kp B        &kp TAB              &kp APOSTROPHE  &kp N        &kp M  &lt 3 COMMA  &kp DOT  &kp SLASH
+&kp LSHFT  &mt LEFT_WIN TAB  &kp LEFT_ALT  &mo 3  &lt 2 SPACE  &mt LCTRL SPACE      &kp BACKSPACE   &lt 1 ENTER                               &kp ENTER
             >;
         };
 

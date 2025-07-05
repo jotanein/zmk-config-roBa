@@ -63,13 +63,6 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
-
-        email: email {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(K) &kp A &kp Z &kp U &kp K &kp I &kp DOT &kp LS(O) &kp N &kp O &kp N1 &kp AT &kp J &kp P &kp DOT &kp R &kp I &kp C &kp O &kp H &kp DOT &kp C &kp O &kp M>;
-            label = "EMAIL";
-        };
     };
 
     behaviors {
